@@ -9,4 +9,5 @@ let connection = createPool({
     database: process.env.dbName,
     multipleStatements: true
 });
+
 module.exports = connection;
