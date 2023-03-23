@@ -54,7 +54,7 @@ class User {
     fetchUsers(req, res) {
         const storeQuery = 
         `
-        SELECT userID, firstName, lastName, gender, cellphoneNumber, emailAdd, userPass, userRole, userProfile
+        SELECT userID, firstName, lastName, gender, cellphoneNumber, emailAdd, userRole
         FROM Users;
         `;
         //db
@@ -149,8 +149,8 @@ class User {
 // Product
 class Product {
     fetchProducts(req, res) {
-        const storeQuery = `SELECT prodID, prodName, prodDescription, 
-        categoryID, price, imgURL
+        const storeQuery = `SELECT prodID, prodName, 
+        categoryID, price
         FROM Products;`;
         db.query(storeQuery, (err, results)=> {
             if(err) throw err;
