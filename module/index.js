@@ -10,8 +10,7 @@ class User {
         const {emailAdd, userPass} = req.body;
         const storeQuery = 
         `
-        SELECT firstName, lastName, gender, emailAdd, userPass, userRole, userProfile
-        FROM Users
+        SELECT emailAdd, userPass
         WHERE emailAdd = '${emailAdd}';
         `;
         db.query(storeQuery, async (err, data)=>{
