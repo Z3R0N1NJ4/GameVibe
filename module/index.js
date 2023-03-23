@@ -68,7 +68,7 @@ class User {
     fetchUser(req, res) {
         const storeQuery = 
         `
-        SELECT userID, firstName, lastName, gender, cellphoneNumber, emailAdd, userRole, userProfile
+        SELECT userID, firstName, lastName, gender, cellphoneNumber, emailAdd, userPass, userRole, userProfile
         FROM Users
         WHERE userID = ?;
         `;
