@@ -150,7 +150,7 @@ class User {
 class Product {
     fetchProducts(req, res) {
         const storeQuery = `SELECT prodID, prodName, 
-        categoryID, price
+        categoryID, price, imgURL
         FROM Products;`;
         db.query(storeQuery, (err, results)=> {
             if(err) throw err;
