@@ -48,7 +48,15 @@
 <script>
 export default {
   name: 'HomeView',
+
+  methods: {
+    toLogin(){
+      this.$router.push("../views/LoginView.vue");
+    }
+  }
 }
+
+
 </script>
 
 <style >

@@ -7,7 +7,7 @@
           <div class="card-body ">
             <h5 class="card-title">{{product.prodName}}</h5>
             <p class="card-text">R {{product.price}}</p>
-            <router-link to="product" @click.prevent="()=>viewProduct(product)">See more ></router-link>
+            <router-link class="submit" to="product" @click.prevent="()=>viewProduct(product)">See more ></router-link>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@ export default {
     
 }
 }
-
+ 
 </script>
 <style >
 
@@ -44,4 +44,10 @@ export default {
   justify-content: space-around !important;
   margin: 2%;
 }
+
+.card-body, .card-title, .card-text, .submit{
+  background-color: whitesmoke;
+}
+
+
 </style>

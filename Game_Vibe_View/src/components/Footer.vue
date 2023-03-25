@@ -12,9 +12,30 @@
         
       </div>
     </div>
-  </footer>
+  
 
-
+  <div id="carouselExample" class="carousel slide working">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../assets/picture.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="..//assets/pxfuel4.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/pxfuel5.jpg" class="d-block w-100">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</footer>
 </template>
 
 <script>
@@ -28,6 +49,7 @@ export default {
     padding: 50px 0;
     background-color: whitesmoke;
     justify-content: center;
+    display: flex;
 }
 
 .footer h3 {
@@ -59,5 +81,9 @@ export default {
 .footer form {
   margin-top: 20px;
   text-align: right;
+}
+
+.carousel-item{
+ height: 20%;
 }
 </style>
