@@ -8,7 +8,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../assets/picture.jpg"
+          <img src="https://i.postimg.cc/Hn8yNsbb/picture.jpg"
            class="d-block w-100" alt="">
           <div class="carousel-caption d-none d-md-block">
             <button class="button"><router-link class="route" to="/products">Shop Now</router-link></button>
@@ -16,14 +16,14 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../assets/pxfuel4.jpg" class="d-block w-100" alt="">
+          <img src="https://i.postimg.cc/CxL12xGX/pxfuel4.jpg" class="d-block w-100" alt="">
           <div class="carousel-caption d-none d-md-block">
             <button class="button"><router-link class="route" to="/products">Shop Now</router-link></button>
             <p>Embark on an epic and heartfelt journey as Kratos and Atreus struggle with holding on and letting go.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../assets/pxfuel5.jpg" class="d-block w-100" alt="">
+          <img src="https://i.postimg.cc/hvgpPpHv/pxfuel5.jpg" class="d-block w-100" alt="">
           <div class="carousel-caption d-none d-md-block text-dark">
             <button class="button"><router-link class="route" to="/products">Shop Now</router-link></button>
             <p>FIFA Online 4 an exciting free-to-play football MMO, the sequel to 2012's FIFA Online 3.</p>

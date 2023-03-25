@@ -17,13 +17,13 @@
   <div id="carouselExample" class="carousel slide working">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../assets/picture.jpg" class="d-block w-100">
+        <img src="https://i.postimg.cc/C5X3rTjv/pxfuel-10.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="..//assets/pxfuel4.jpg" class="d-block w-100">
+        <img src="https://i.postimg.cc/QMK0S96r/pxfuel-9.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="../assets/pxfuel5.jpg" class="d-block w-100">
+        <img src="https://i.postimg.cc/pd1yVyxy/pxfuel-8.jpg" class="d-block w-100">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
